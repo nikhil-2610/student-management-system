@@ -6,4 +6,7 @@ const manager = new StudentManager();
 manager.addStudent({ id: 1, name: "Sai", age: 20, course: "CS" });
 manager.addStudent({ id: 2, name: "Anil", age: 21, course: "IT" });
 
+manager.viewStudents(); 
+
+manager.deleteStudent(1);
 manager.viewStudents();
